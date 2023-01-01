@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./main.js" defer></script>
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <!-- Rating state start -->
+
+    <div class="container">
+      <div class="box_one">
+        <div class="star_container">
+          <img
+            src="/interactive-rating-component-main/images/icon-star.svg"
+            alt="icon-star"
+            class="star"
+          />
+        </div>
+        <section class="context">
+          <h2 class="title heading">How did we do?</h2>
+          <p class="text">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <div class="selection">
+            <a href="#" class="num num_1">1</a>
+            <a href="#" class="num num_2">2 </a>
+            <a href="#" class="num num_3">3</a>
+            <a href="#" class="num num_4">4</a>
+            <a href="#" class="num num_5">5</a>
+          </div>
+          <div class="btn">Submit</div>
+        </section>
+      </div>
+
+      <!-- Rating state end -->
+
+      <!-- Thank you state start -->
+      <div class="box_two">
+        <div class="illustrator_logo">
+          <img
+            src="/interactive-rating-component-main/images/illustration-thank-you.svg"
+            alt="illustrator-image"
+            class="illustrator"
+          />
+        </div>
+        <div class="rating">
+          <p class="rate">You selected out <span class="value"></span> of 5</p>
+        </div>
+        <section class="reply">
+          <h2 class="thank_you heading">Thank you!</h2>
+          <p class="text_two text">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </section>
+      </div>
+    </div>
+    <!-- Thank you state end -->
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>

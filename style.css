@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Overpass:wght@400;700&display=swap");
+:root {
+  /*primary Color */
+
+  --Orange: hsl(25, 97%, 53%);
+
+  /* Netral Color */
+
+  --White: hsl(0, 0%, 100%);
+  --Light_Grey: hsl(217, 12%, 63%);
+  --Medium_Grey: hsl(216, 12%, 54%);
+  --Dark_Blue: hsl(213, 19%, 18%);
+  --Very_Dark_Blue: hsl(216, 12%, 8%);
+}
+
+body {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Overpass", sans-serif;
+  background-color: var(--Very_Dark_Blue);
+  height: 100vh;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--Dark_Blue);
+  padding: 1.5rem;
+  border-radius: 5%;
+  width: 1000px;
+}
+
+.star {
+  padding: 1rem;
+  background-color: hsl(215, 17%, 22%);
+  clip-path: circle();
+}
+
+.heading {
+  color: var(--White);
+}
+.text {
+  color: var(--Light_Grey);
+  line-height: 1.8;
+}
+
+.selection {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.num {
+  align-self: center;
+  color: var(--Light_Grey);
+  background-color: hsl(215, 17%, 22%);
+  clip-path: circle();
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color 300ms, background-color 300ms ease-in-out;
+}
+
+.num:hover {
+  color: var(--White);
+  background-color: var(--Orange);
+}
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--White);
+  background-color: var(--Orange);
+  text-align: center;
+  padding: 1em;
+  border-radius: 50px;
+  transition: color 300ms, background-color 300ms;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--White);
+  color: var(--Orange);
+}
+
+.text_two {
+  line-height: 1.5;
+}
+
+.illustrator_logo {
+  margin-bottom: 1.5rem;
+}
+.rating {
+  margin-bottom: 2rem;
+}
+
+.box_two {
+  display: none;
+}
+
+.rate {
+  width: 180px;
+  background-color: hsl(215, 17%, 22%);
+  margin: 0 auto;
+  padding: 0.5rem;
+  border-radius: 30px;
+  color: var(--Orange);
+}
+
+/* Javascript Stuff */
+
+.active {
+  background-color: var(--Medium_Grey);
+  color: var(--White);
+}
+
+.invisible {
+  display: none;
+}
+.visible {
+  display: block;
+}
+
+.index {
+    
+}
+
+.box_two {
+  text-align: center;
+}
