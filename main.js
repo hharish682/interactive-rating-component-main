@@ -1,3 +1,5 @@
+"use strict";
+
 const box_one = document.querySelector(".box_one");
 const box_two = document.querySelector(".box_two");
 const n = document.querySelectorAll(".num");
