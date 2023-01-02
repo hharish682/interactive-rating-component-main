@@ -19,14 +19,34 @@ for (let i = 0; i < a.length; i++) {
 
     if (n[i] === num_1) {
       value.textContent = 1;
-    } else if (n[i] === num_2) {
+      num_1.classList.add("active");
+    } else {
+      num_1.classList.remove("active");
+    }
+
+    if (n[i] === num_2) {
       value.textContent = 2;
-    } else if (n[i] === num_3) {
+      num_2.classList.add("active");
+    } else {
+      num_2.classList.remove("active");
+    }
+    if (n[i] === num_3) {
       value.textContent = 3;
-    } else if (n[i] === num_4) {
+      num_3.classList.add("active");
+    } else {
+      num_3.classList.remove("active");
+    }
+    if (n[i] === num_4) {
       value.textContent = 4;
-    } else if (n[i] === num_5) {
+      num_4.classList.add("active");
+    } else {
+      num_4.classList.remove("active");
+    }
+    if (n[i] === num_5) {
       value.textContent = 5;
+      num_5.classList.add("active");
+    } else {
+      num_5.classList.remove("active");
     }
   });
 }
