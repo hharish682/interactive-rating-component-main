@@ -1,7 +1,5 @@
 "use strict";
 
-const box_one = document.querySelector(".box_one");
-const box_two = document.querySelector(".box_two");
 const n = document.querySelectorAll(".num");
 const num_1 = document.querySelector(".num_1");
 const num_2 = document.querySelector(".num_2");
@@ -9,6 +7,8 @@ const num_3 = document.querySelector(".num_3");
 const num_4 = document.querySelector(".num_4");
 const num_5 = document.querySelector(".num_5");
 let value = document.querySelector(".value");
+const box_one = document.querySelector(".box_one");
+const box_two = document.querySelector(".box_two");
 let btn = document.querySelector(".btn");
 
 const a = [num_1, num_2, num_3, num_4, num_5];
@@ -30,6 +30,8 @@ for (let i = 0; i < a.length; i++) {
     }
   });
 }
+
+/*Submit Button */
 
 btn.addEventListener("click", function () {
   box_two.classList.add("visible");
