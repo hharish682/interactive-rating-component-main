@@ -53,7 +53,13 @@ for (let i = 0; i < a.length; i++) {
 
 /*Submit Button */
 
-btn.addEventListener("click", function () {
-  box_two.classList.add("visible");
-  box_one.classList.add("invisible");
-});
+const b = [num_1, num_2, num_3, num_4, num_5];
+
+for (let i = 0; i < a.length; i++) {
+  btn.addEventListener("click", function () {
+    if (n[i].classList.contains("active")) {
+      box_two.classList.add("visible");
+      box_one.classList.add("invisible");
+    }
+  });
+}
