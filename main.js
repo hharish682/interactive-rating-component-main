@@ -59,6 +59,6 @@ for (let i = 0; i < a.length; i++) {
     if (n[i].classList.contains("active")) {
       box_two.classList.add("visible");
       box_one.classList.add("invisible");
-
+    }
   });
 }
