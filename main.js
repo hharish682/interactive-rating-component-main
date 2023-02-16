@@ -53,7 +53,6 @@ for (let i = 0; i < a.length; i++) {
 
 /*Submit Button */
 
-
 for (let i = 0; i < a.length; i++) {
   btn.addEventListener("click", function () {
     if (n[i].classList.contains("active")) {
