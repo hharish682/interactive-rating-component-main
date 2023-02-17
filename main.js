@@ -15,7 +15,7 @@ const a = [num_1, num_2, num_3, num_4, num_5];
 
 for (let i = 0; i < a.length; i++) {
   n[i].addEventListener("click", function () {
-    n[i].classList.add("active");
+    // n[i].classList.add("active");
 
     if (n[i] === num_1) {
       value.textContent = 1;
