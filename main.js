@@ -1,6 +1,6 @@
 "use strict";
 
-let n = document.querySelectorAll(".num");
+const n = document.querySelectorAll(".num");
 let value = document.querySelector(".value");
 const box_one = document.querySelector(".box_one");
 const box_two = document.querySelector(".box_two");
@@ -23,7 +23,7 @@ for (let i = 0; i < n.length; i++) {
   /*selection click function */
 
   n[i].addEventListener("click", function () {
-    n[i] = n[i] == a[i] ? addclass() : removeclass();
+    n[i] += a[i] ? addclass() : removeclass();
 
     /*Submit Button */
   });
